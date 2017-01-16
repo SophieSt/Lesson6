@@ -30,3 +30,5 @@ places_rd = reproject(places)
 industrial_buff = buffer(industrial_rd, 1000)
 the_place = find_place(places_rd, industrial_buff)
 plot_result(industrial_buff, the_place)
+
+# Utrecht with 100,000 inhabitants
